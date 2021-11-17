@@ -1,4 +1,4 @@
 
 # GTK+PHP
 
-PHP is a popular general-purpose scripting language.
+https://github.com/php/php-gtk-src
