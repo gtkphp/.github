@@ -3,9 +3,9 @@
 
 
 ```bash
-sapi/gui/php -f about.gtk
+sapi/gui/php about.php
 ```
-<img src="https://raw.githubusercontent.com/gtkphp/.github/main/profile/gtkml.png" />
+<img src="https://raw.githubusercontent.com/gtkphp/.github/main/profile/gtkml.webp" />
 
 --------------------------------------
 
