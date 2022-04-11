@@ -10,6 +10,13 @@ sapi/gui/php about.php
 --------------------------------------
 
 ```bash
+sapi/gui/php minimal.php
+```
+<img src="https://raw.githubusercontent.com/gtkphp/.github/main/profile/gtkml-window.webp" />
+
+--------------------------------------
+
+```bash
 sapi/cli/php -f ExampleApplication.gtk
 ```
 
