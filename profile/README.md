@@ -1,7 +1,14 @@
 
 # Welcome, Learn a little about GTK+PHP
 <img src="https://raw.githubusercontent.com/gtkphp/.github/main/profile/my-window.png" />
-
+```php
+<?php require_once("My/Window.php"); ?>
+<application
+    xmlns="http://gtk.php.net/gtkml.dtd"
+    xmlns:my="http://my.com/app.dtd">
+    <my:window />
+</application>
+```
 
 ```bash
 sapi/gui/php about.php
