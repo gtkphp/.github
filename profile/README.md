@@ -1,10 +1,15 @@
 
 # Welcome, Learn a little about GTK+PHP
 ```php
-<?php use Vendor\Window as MyWindow; ?>
-<application id="demo" xmlns="http://gtk.php.net/2022/phtml" >
+<?php use Gtkml\Window as MainWindow; ?>
+<!DOCTYPE application PUBLIC "-//PHP//DTD PHPML 1.0//EN" "http://www.php.net/TR/phpml1/DTD/phpml1.dtd">
+<application id="demo" xmlns="http://www.php.net/2022/gtkml"
+                       xmlns:xi="http://www.w3.org/2001/XInclude">
     <link rel="stylesheet" href="styles.css">
-    <my-window />
+    <?php include "copyright.phpml"; ?>
+    <main-window>
+        <xi:include href="content.phpml"/>
+    </main-window>
 </application>
 ```
 
