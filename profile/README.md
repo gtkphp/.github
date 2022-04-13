@@ -2,7 +2,7 @@
 # Welcome, Learn a little about GTK+PHP
 ```php
 <?php use Vendor\Window as MyWindow; ?>
-<application id="demo">
+<application id="demo" xmlns="http://gtk.php.net/2022/phtml" >
     <link rel="stylesheet" href="styles.css">
     <my-window />
 </application>
