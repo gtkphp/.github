@@ -1,7 +1,7 @@
 
 # Welcome, Learn a little about GTK+PHP
 ```php
-<?php require_once("My/Window.php"); ?>
+<?php use Vendor\Window as MyWindow; ?>
 <application id="demo">
     <link rel="stylesheet" href="styles.css">
     <my-window />
